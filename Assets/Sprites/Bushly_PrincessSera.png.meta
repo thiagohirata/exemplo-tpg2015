@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: a88aff6c247588840b8bd43306918e22
+timeCreated: 1430325645
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bushly_PrincessSera_0
+    21300002: Bushly_PrincessSera_1
+    21300004: Bushly_PrincessSera_2
+    21300006: Bushly_PrincessSera_3
+    21300008: Bushly_PrincessSera_4
+    21300010: Bushly_PrincessSera_5
+    21300012: Bushly_PrincessSera_6
+    21300014: Bushly_PrincessSera_7
+    21300016: Bushly_PrincessSera_8
+    21300018: Bushly_PrincessSera_9
+    21300020: Bushly_PrincessSera_10
+    21300022: Bushly_PrincessSera_11
+    21300024: Bushly_PrincessSera_12
+    21300026: Bushly_PrincessSera_13
+    21300028: Bushly_PrincessSera_14
+    21300030: Bushly_PrincessSera_15
+    21300032: Bushly_PrincessSera_16
+    21300034: Bushly_PrincessSera_17
+    21300036: Bushly_PrincessSera_18
+    21300038: Bushly_PrincessSera_19
+    21300040: Bushly_PrincessSera_20
+    21300042: Bushly_PrincessSera_21
+    21300044: Bushly_PrincessSera_22
+    21300046: Bushly_PrincessSera_23
+    21300048: Bushly_PrincessSera_24
+    21300050: Bushly_PrincessSera_25
+    21300052: Bushly_PrincessSera_26
+    21300054: Bushly_PrincessSera_27
+    21300056: Bushly_PrincessSera_28
+    21300058: Bushly_PrincessSera_29
+    21300060: Bushly_PrincessSera_30
+    21300062: Bushly_PrincessSera_31
+    21300064: Bushly_PrincessSera_32
+    21300066: Bushly_PrincessSera_33
+    21300068: Bushly_PrincessSera_34
+    21300070: Bushly_PrincessSera_35
+    21300072: Bushly_PrincessSera_36
+    21300074: Bushly_PrincessSera_37
+    21300076: Bushly_PrincessSera_38
+    21300078: Bushly_PrincessSera_39
+    21300080: Bushly_PrincessSera_40
+    21300082: Bushly_PrincessSera_41
+    21300084: Bushly_PrincessSera_42
+    21300086: Bushly_PrincessSera_43
+    21300088: Bushly_PrincessSera_44
+    21300090: Bushly_PrincessSera_45
+    21300092: Bushly_PrincessSera_46
+    21300094: Bushly_PrincessSera_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bushly_PrincessSera_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 144
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 144
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 144
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 145
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 128
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 129
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 128
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 128
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 129
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_9
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 128
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 113
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 113
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 112
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_13
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 112
+        width: 12
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_15
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 80
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 81
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_18
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 81
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 80
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_20
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 80
+        width: 14
+        height: 25
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_21
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 80
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_22
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 80
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_23
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 81
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_24
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 82
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 49
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_26
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 49
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_27
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 48
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 50
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_31
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 48
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_32
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 49
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_33
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 48
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_34
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 48
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_35
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 49
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_36
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 48
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 16
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_38
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 18
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_39
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 16
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_40
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 17
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 16
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_42
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 16
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_43
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 17
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_44
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 16
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_45
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 16
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 24
+        width: 32
+        height: 8
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bushly_PrincessSera_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
