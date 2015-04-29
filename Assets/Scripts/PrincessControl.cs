@@ -20,7 +20,7 @@ public class PrincessControl : MonoBehaviour {
 		//controla o pe do personagem
 		playerFeet.enabled = rigidbody2d.velocity.y <= 0;
 
-		bool grounded = playerFeet.IsTouchingLayers ();
+		bool grounded = this.IsGrounded ();
 
 		 
 		Vector2 vel = this.rigidbody2d.velocity;
@@ -44,7 +44,7 @@ public class PrincessControl : MonoBehaviour {
 	}
 
 	void Update() {
-		bool grounded = playerFeet.IsTouchingLayers ();
+		bool grounded = this.IsGrounded ();
 		this.animator.SetBool ("Grounded", grounded);
 
 		if (grounded) {
@@ -56,6 +56,10 @@ public class PrincessControl : MonoBehaviour {
 			}
 		}
 
+	}
+
+	bool IsGrounded() {
+		return rigidbody2d.velocity.y <= 0;
 	}
 
 
