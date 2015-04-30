@@ -6,7 +6,14 @@ public class PrincessControl : MonoBehaviour {
 	private Collider2D playerFeet;
 	private Rigidbody2D rigidbody2d;
 	private readonly float JUMP_SPEED = 20f;
+	private readonly float JUMP_TIME_MAX = 0.1f;
+	private float jumpTime;
 	private readonly float WALK_SPEED = 500f;
+	private bool grounded;
+
+	void OnGroundedChange(bool g) {
+		grounded = g;
+	}
 
 	void Awake () {
 		this.animator = GetComponent<Animator> ();
@@ -41,6 +48,18 @@ public class PrincessControl : MonoBehaviour {
 			//flip
 			this.transform.localScale = new Vector3 (1, 1, 1);
 		}
+
+		if (jumpTime < JUMP_TIME_MAX) {
+			jumpTime += Time.fixedDeltaTime;
+			if(Input.GetButton("Jump")) {
+				Vector2 velj = this.rigidbody2d.velocity;
+				velj.y = JUMP_SPEED * (0.5f + 0.5f * jumpTime/JUMP_TIME_MAX);
+				this.rigidbody2d.velocity = velj;
+				this.animator.SetTrigger("Jump");
+			} else {
+				jumpTime = JUMP_TIME_MAX;
+			}
+		}
 	}
 
 	void Update() {
@@ -50,16 +69,18 @@ public class PrincessControl : MonoBehaviour {
 		if (grounded) {
 			if(Input.GetButtonDown("Jump")) {
 				Vector2 vel = this.rigidbody2d.velocity;
-				vel.y = JUMP_SPEED;
+				vel.y = JUMP_SPEED * 0.5f;
 				this.rigidbody2d.velocity = vel;
 				this.animator.SetTrigger("Jump");
+				jumpTime = 0;
+				OnGroundedChange(false);
 			}
 		}
 
 	}
 
 	bool IsGrounded() {
-		return rigidbody2d.velocity.y <= 0;
+		return this.grounded;
 	}
 
 
