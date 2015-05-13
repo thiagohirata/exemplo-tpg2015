@@ -1,11 +1,10 @@
 fileFormatVersion: 2
 guid: 52a33d9a392e5634b9f4cd487b10dd6b
-timeCreated: 1430325592
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Jungle_terrain_0
-    21300002: Jungle_terrain_1
+    21300002: JungleWall
+    21300004: Jungle_terrain_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -24,9 +23,6 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
-  cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -2
   maxTextureSize: 2048
@@ -37,7 +33,6 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
@@ -61,7 +56,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JungleWall
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 309
+        width: 64
+        height: 165
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
