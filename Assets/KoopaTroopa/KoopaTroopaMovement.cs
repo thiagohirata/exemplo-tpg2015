@@ -37,7 +37,9 @@ public class KoopaTroopaMovement : MonoBehaviour {
 
 		//COLIDIU COM PLAYER - LEVOU DANO
 		if (coll.gameObject.layer == LayerMask.NameToLayer ("Player")) {
+			this.transform.localScale = new Vector2(-1 * this.transform.localScale.x, this.transform.localScale.y);
 			animator.SetTrigger("ReceivedDamage");
+			this.gameObject.SendMessage("ReceivedDamage"); //Warns EnemyGhostController
 			coll.gameObject.rigidbody2D.AddRelativeForce(new Vector2(0, 500)); //empurra para cima
 		}
 	}
