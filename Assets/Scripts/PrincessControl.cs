@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PrincessControl : MonoBehaviour {
 	private Animator animator;
-	private Collider2D playerFeet;
+	private GameObject playerFeet;
 	private Rigidbody2D rigidbody2d;
 	private readonly float JUMP_SPEED = 20f;
 	private readonly float JUMP_TIME_MAX = 0.1f;
@@ -20,12 +20,12 @@ public class PrincessControl : MonoBehaviour {
 		this.rigidbody2d = this.GetComponent<Rigidbody2D> ();
 	}
 	void Start() {
-		playerFeet = this.transform.FindChild ("PlayerFeet").gameObject.GetComponent<Collider2D> ();
+		playerFeet = (GameObject) this.transform.FindChild ("PlayerFeet").gameObject;
 	}
 	
 	void FixedUpdate() {
 		//controla o pe do personagem
-		playerFeet.enabled = rigidbody2d.velocity.y <= 0;
+		playerFeet.SetActive(rigidbody2d.velocity.y <= 0);
 
 		bool grounded = this.IsGrounded ();
 
@@ -56,6 +56,7 @@ public class PrincessControl : MonoBehaviour {
 				velj.y = JUMP_SPEED * (0.5f + 0.5f * jumpTime/JUMP_TIME_MAX);
 				this.rigidbody2d.velocity = velj;
 				this.animator.SetTrigger("Jump");
+				GetComponent<AudioSource>().Play();
 			} else {
 				jumpTime = JUMP_TIME_MAX;
 			}
