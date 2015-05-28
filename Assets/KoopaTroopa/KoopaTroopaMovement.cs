@@ -37,12 +37,23 @@ public class KoopaTroopaMovement : MonoBehaviour {
 
 		//COLIDIU COM PLAYER - LEVOU DANO
 		if (coll.gameObject.layer == LayerMask.NameToLayer ("Player")) {
-			this.transform.localScale = new Vector2(-1 * this.transform.localScale.x, this.transform.localScale.y);
-			animator.SetTrigger("ReceivedDamage");
-			this.gameObject.SendMessage("ReceivedDamage"); //Warns EnemyGhostController
-			coll.gameObject.rigidbody2D.AddRelativeForce(new Vector2(0, 500)); //empurra para cima
 		}
 	}
+
+	void OnWeakSpotHit(GameObject other) {
+
+		//Toca o AudioClip do componente AudioSource conectado ao Koopa
+		GetComponent<AudioSource>().Play ();
+
+		this.transform.localScale = new Vector2(-1 * this.transform.localScale.x, this.transform.localScale.y);
+		animator.SetTrigger("ReceivedDamage");
+		this.gameObject.SendMessage("ReceivedDamage"); //Warns EnemyGhostController
+		if (other.rigidbody2D != null) {
+			other.rigidbody2D.velocity = (new Vector2 (other.rigidbody2D.velocity.x, 5)); //empurra para cima
+		}
+
+	}
+
 	void OnCollisionExit2D(Collision2D coll) {
 		if (coll.gameObject.layer == LayerMask.NameToLayer ("Platform")) {
 			grounded = false;

@@ -3,6 +3,7 @@
 --- !u!78 &1
 TagManager:
   tags:
+  - EnemyWeakSpot
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   User Layer 11: Wall
   User Layer 12: Enemy
   User Layer 13: EnemyGhost
-  User Layer 14: 
+  User Layer 14: EnemyWeakSpot
   User Layer 15: 
   User Layer 16: 
   User Layer 17: 
