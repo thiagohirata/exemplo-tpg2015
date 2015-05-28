@@ -4,7 +4,7 @@ using System.Collections;
 public class GameMenuHandler : MonoBehaviour {
 
 	public void OnStartGame() {
-		Application.LoadLevel ("StageSelect");
+		Application.LoadLevel ("LoadMain");
 	}
 
 	public void OnOptions() {
